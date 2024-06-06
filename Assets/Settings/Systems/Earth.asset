@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d0a8796c3e31f4780c0f9f25337bc3, type: 3}
+  m_Name: Earth
+  m_EditorClassIdentifier: 
+  centralBody:
+    name: Earth
+    color: {r: 0.21968475, g: 0.5849056, b: 0.08552865, a: 1}
+    surfaceGravity: 9.81
+    shape:
+      radius: 60
+      resolution: 104
+      elevation: 34
+      heightMap: {fileID: 2800000, guid: 1b6cd59654164e94493b3259f71139b3, type: 3}
+      colorMap: {fileID: 0}
+    orbit:
+      clockwiseOrbit: 0
+      apoapsis: 0
+      periapsis: 0
+      inclination: 0
+      axis: 0
+      rotationSpeed: 0
+  centralBodyVelocity: {x: 0, y: 10, z: 0}
+  planets:
+  - name: Moon
+    color: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
+    surfaceGravity: 1.625
+    shape:
+      radius: 10
+      resolution: 86
+      elevation: 2
+      heightMap: {fileID: 2800000, guid: 8b3603d3b6c6bac4f95ac1dfdeba4477, type: 3}
+      colorMap: {fileID: 2800000, guid: 4e9df04a837ca994d9a146b91a6444a2, type: 3}
+    orbit:
+      clockwiseOrbit: 1
+      apoapsis: 405
+      periapsis: 363
+      inclination: 5.145
+      axis: 6.68
+      rotationSpeed: 0

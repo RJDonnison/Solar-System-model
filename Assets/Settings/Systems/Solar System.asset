@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d0a8796c3e31f4780c0f9f25337bc3, type: 3}
+  m_Name: Solar System
+  m_EditorClassIdentifier: 
+  centralBody:
+    name: Sun
+    material: {fileID: 2100000, guid: 98d2c44353b3e2a4abd08619bdcf8ac8, type: 2}
+    surfaceGravity: 50
+    shape:
+      radius: 150
+    orbit:
+      clockwiseOrbit: 0
+      apoapsis: 0
+      periapsis: 0
+      inclination: 0
+      axis: 0
+      rotationSpeed: 0
+  centralBodyVelocity: {x: 0, y: 0, z: 0}
+  planets:
+  - name: Earth
+    material: {fileID: 2100000, guid: f5f410d0aa8da0e49a50305e3d9eba32, type: 2}
+    surfaceGravity: 10
+    shape:
+      radius: 50
+    orbit:
+      clockwiseOrbit: 1
+      apoapsis: 1250
+      periapsis: 1000
+      inclination: 0
+      axis: 0
+      rotationSpeed: 0
+  - name: Mars
+    material: {fileID: 2100000, guid: 04606c98d27615d46ba27048a6e238ad, type: 2}
+    surfaceGravity: 6
+    shape:
+      radius: 30
+    orbit:
+      clockwiseOrbit: 1
+      apoapsis: 2500
+      periapsis: 2000
+      inclination: 1.85
+      axis: 0
+      rotationSpeed: 0
