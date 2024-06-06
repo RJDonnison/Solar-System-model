@@ -36,7 +36,7 @@ MonoBehaviour:
     surfaceGravity: 1.625
     shape:
       radius: 10
-      resolution: 86
+      resolution: 85
       elevation: 2
       heightMap: {fileID: 2800000, guid: 8b3603d3b6c6bac4f95ac1dfdeba4477, type: 3}
       colorMap: {fileID: 2800000, guid: 4e9df04a837ca994d9a146b91a6444a2, type: 3}
