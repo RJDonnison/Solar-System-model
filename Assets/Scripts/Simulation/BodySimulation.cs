@@ -187,6 +187,7 @@ public class BodySimulation : MonoBehaviour
         if (!Application.isPlaying)
         {
             timeStep = usePhysicsTimeStep ? Universe.physicsTimeStep : timeStep;
+            bodies = FindObjectsOfType<CelestialBody>();
             if (displayOrbits) DrawOrbits();
             if (displayOrbitExtremes) DrawOrbitExtremes();
         }
