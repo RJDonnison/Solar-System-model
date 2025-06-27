@@ -1,6 +1,6 @@
 # Solar system model
  
-Solar system model made in unity with gravity and calculated orbits bassed off orbital parameters. The model includes planet rendering based on realistic textures. This project was inspired by Sebastian Lague's work and showcases my skills in C# and Unity for both simulation and visual rendering.
+Solar system model made in unity with gravity and calculated orbits based off orbital parameters. The model includes planet rendering based on realistic textures. This project was inspired by Sebastian Lague's work and showcases my skills in C# and Unity for both simulation and visual rendering.
 
 ## Usage
 
